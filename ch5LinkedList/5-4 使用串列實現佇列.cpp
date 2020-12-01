@@ -19,7 +19,7 @@ public:
     }
 
     void InsertFirst(int x) {
-        //�إߪŸ`�I
+        //建立空節點
         ListNode* p = new ListNode(x);
         p->link = first;
         first = p;
